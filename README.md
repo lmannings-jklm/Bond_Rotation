@@ -56,9 +56,21 @@ This tool is built upon the **Core-Satellite Tactical Asset Allocation (TAA)** f
 * **Fisher, I. (1930). The Theory of Interest.** Provides the "Fisher Equation" logic behind the **10-Year Breakeven Inflation** signal used to trigger rotations into FIPDX/TIPS.
 ---
 
-### Reproducibility Note
+## Reproducibility Note
 This project follows a **Hybrid Archiving strategy**. To run this locally:
 1. Clone the repository.
 2. Open `Bond_Rotation.Rproj`.
 3. Run `renv::restore()` to synchronize your local library with the project's lockfile.
 """
+
+## Acknowledgements & Development Note
+The **Bond_Rotation** tool was designed and engineered by the repository owner to meet specific tactical asset allocation requirements for tax-deferred brokerage environments.
+
+The application logic, signal thresholds, and BrokerageLink-optimized asset mappings were developed in collaboration with **Google Gemini (Gemini 3 Flash)**. This partnership allowed for the rapid translation of complex fixed-income strategies into a reproducible, production-ready R Shiny environment.
+
+* **Architectural Specification:** Defined the Core-Satellite framework, yield curve signal parameters, and the sensitivity stress-test logic.
+
+* **Development Partner:** Google Gemini assisted in the implementation of the tidyquant data pipelines, renv environment management, and the shinydashboard UI/UX design.
+
+
+
