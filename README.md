@@ -42,6 +42,18 @@ The dashboard monitors three primary signals sourced via the `tidyquant` API fro
 2.  **Observe the Signal:** If the "Signal" box changes color, evaluate a rotation of the **Satellite** portion of your portfolio.
 3.  **Stress Test:** Use the slider to determine if the "Reward" of holding bonds (FXNAX/AGG) outweighs the "Risk" of potential further rate hikes.
 
+## 7. References & Academic Foundation
+This tool is built upon the **Core-Satellite Tactical Asset Allocation (TAA)** framework. This methodology seeks to minimize tracking error through a "Core" of passive index funds while capturing "Alpha" through tactical tilts in the "Satellite" portion.
+
+### Industry White Papers & Frameworks
+* **Vanguard Investment Strategy Group.** _Core-Satellite Investing: A Strategy for Portfolio Construction._ This framework validates the use of low-cost index funds (like FXNAX) as the core to reduce expense ratios while utilizing active satellites for specific macro regimes.
+
+* **CFA Institute.** _Strategic vs. Tactical Asset Allocation._ The CFA curriculum defines the "Macro-Filter" approach used in this tool, where the yield curve serves as the primary signal for shifting between duration-heavy and cash-equivalent assets.
+
+### Macroeconomic Theory
+* **Estrella, A., & Mishkin, F. S. (1996).**  _The Yield Curve as a Predictor of U.S. Recessions._ Federal Reserve Bank of New York. This research justifies the use of the **10Y-3M** and **10Y-2Y** spreads in the Bond_Rotation tool as reliable signals for economic regime shifts.
+
+* **Fisher, I. (1930). The Theory of Interest.** Provides the "Fisher Equation" logic behind the **10-Year Breakeven Inflation** signal used to trigger rotations into FIPDX/TIPS.
 ---
 
 ### Reproducibility Note
