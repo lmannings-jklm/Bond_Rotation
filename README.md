@@ -1,4 +1,4 @@
-![Header Image](header-photo.png)
+![Header Image](bond_rotation_tool.png)
 
 ## Live Application
 **Access the tool here:** [https://jklmdata.shinyapps.io/bond_rotation/](https://jklmdata.shinyapps.io/bond_rotation/)
