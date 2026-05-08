@@ -1,4 +1,4 @@
-![Bond_Rotation Dashboard](https://raw.githubusercontent.com/[YOUR_GITHUB_USERNAME]/Bond_Rotation/main/bond_rotation_tool.png)
+![Header Image](header-photo.png)
 
 ## Live Application
 **Access the tool here:** [https://jklmdata.shinyapps.io/bond_rotation/](https://jklmdata.shinyapps.io/bond_rotation/)
